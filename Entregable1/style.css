@@ -1,0 +1,77 @@
+body{
+background-color: #CDD6E3;
+color: #639DF1;
+font-family: 'Asul', sans-serif;
+
+}
+.Nombre{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 5px solid #939393;
+    padding: 20px;
+}
+.Imagen{
+    width: 322px;
+    height: 396;
+    border-radius: 132px;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+.cuerpo{
+    display: inline-flex;
+    width: 90%;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.Formacion{
+    border-left: 5px solid #939393;
+    padding: 20px;
+    width: 300px;
+}
+.Experiencia
+{
+    border-left: 5px solid #939393;
+    padding: 20px;
+    width: 300px;
+}
+.hobby{
+    border-left: 5px solid #939393;
+    padding: 20px;
+    width: 300px;
+}
+.encabezado p{
+font-size: 30px;
+}
+
+@media (max-width:768px){
+    .encabezado{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cuerpo{
+        flex-direction: column;
+        margin: 11%;
+    }
+}
+@media (max-width:426px){
+    .encabezado{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cuerpo{
+        flex-direction: column;
+        margin: 0%;
+    }
+}

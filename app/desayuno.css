@@ -1,0 +1,29 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    justify-items: center;
+    grid-row-gap: 20px;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+
+}
+
+.titulo a{
+    position: absolute;
+    left: 20px;
+}
+.desayuno{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+
+}
+body{
+    background-color: #B4DEEA;
+}
